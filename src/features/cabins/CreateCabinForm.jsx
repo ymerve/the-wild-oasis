@@ -7,7 +7,7 @@ import FileInput from "../../ui/FileInput";
 import Textarea from "../../ui/Textarea";
 import FormRow from "../../ui/FormRow";
 
-import useCreateCain from "./useCreateCabin";
+import useCreateCabin from "./useCreateCabin";
 import useEditCabin from "./useEditCabin";
 
 function CreateCabinForm({ cabinToEdit = {} }) {
@@ -20,7 +20,7 @@ function CreateCabinForm({ cabinToEdit = {} }) {
 
     const { errors } = formState;
 
-    const { isCreating, createCabin } = useCreateCain();
+    const { isCreating, createCabin } = useCreateCabin();
     const { isEditing, editCabin } = useEditCabin();
     const isWorking = isCreating || isEditing;
 
