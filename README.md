@@ -15,14 +15,15 @@ git clone https://github.com/ymerve/the-wild-oasis.git
 cd the-wild-oasis
 ```
 
-2- install dependencies
+2- install dependencies:
+
 Make sure you have Node.js installed, the run.
 
 ```zsh
 node -v
 ```
 
-output: v20.4.0 - my versio
+output: v20.4.0 - my version
 
 ```zsh
 npm install
@@ -36,7 +37,7 @@ To start the development server, run:
 npm run dev
 ```
 
-This will start the Vite deveopment server. Open your browser and
+This will start the Vite development server. Open your browser and
 navigate to `http://localhost:5173`
 
 ## Build
