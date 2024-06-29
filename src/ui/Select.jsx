@@ -15,7 +15,6 @@ const StyledSelect = styled.select`
 `;
 
 function Select({ options, value, onChange, ...props }) {
-    console.log(props);
     return (
         <StyledSelect value={value} {...props} onChange={onChange}>
             {options.map((option) => (
