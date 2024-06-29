@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 import Logo from "./Logo";
 import MainNav from "./MainNav";
 import useCabin from "../features/cabins/useCabin";
+import Uploader from "../data/Uploader";
 
 const StyledSidebar = styled.aside`
     background-color: var(--color-grey-0);
@@ -17,12 +18,13 @@ const StyledSidebar = styled.aside`
 
 function Sidebar() {
     const { isLoading, cabins } = useCabin();
-    console.log(cabins, isLoading);
 
     return (
         <StyledSidebar>
             <Logo />
             <MainNav />
+
+            <Uploader />
         </StyledSidebar>
     );
 }
