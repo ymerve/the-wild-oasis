@@ -9,7 +9,7 @@ import { formatDistanceFromNow } from "../../utils/helpers";
 import Menus from "../../ui/Menus";
 import { HiArrowDownOnSquare, HiArrowUpOnSquare, HiEye } from "react-icons/hi2";
 import { useNavigate } from "react-router-dom";
-import { useCheckout } from "./useCheckinout";
+import { useCheckout } from "./useCheckout";
 
 const Cabin = styled.div`
     font-size: 1.6rem;
