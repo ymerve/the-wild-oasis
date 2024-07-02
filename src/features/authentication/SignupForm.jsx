@@ -27,7 +27,7 @@ function SignupForm() {
                 <Input
                     type="text"
                     id="fullName"
-                    {...register("FullName", {
+                    {...register("fullName", {
                         required: "This field is required",
                     })}
                     disabled={isLoading}
