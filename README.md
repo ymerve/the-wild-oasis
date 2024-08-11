@@ -6,6 +6,12 @@ The Wild Oasis is a small boutique hotel with 8 luxurious wooden
 cabins. This application is to manage everything about the hotel:
 booking, cabins and guests.
 
+## DEMO
+
+-   [Netlify link](https://learning-react-the-wild-oasis.netlify.app)
+
+-   [Vercel link](https://the-wild-oasis-three-psi.vercel.app)
+
 ## Installation
 
 1- Clone the repository
